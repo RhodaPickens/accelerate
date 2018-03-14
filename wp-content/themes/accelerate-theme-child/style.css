@@ -75,3 +75,25 @@ div.case-study-images img {
 .client {
   font-size: 15px;
 }
+
+/* Featured Work Styles */
+section.featured-work h5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ul.homepage-featured-work {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+li.individual-featured-work {
+  display: inline-block;
+  margin: 0 14px;
+}
+
+section.featured-work div.site-content {
+  max-width: 95%;
+}
