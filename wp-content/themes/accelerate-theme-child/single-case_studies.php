@@ -47,9 +47,15 @@ get_header(); ?>
 				</article>
 
 			<?php endwhile; // end of the loop. ?>
+
+      <p class="case-study-footer">BACK TO WORK</P>
+
 		</div><!-- .main-content -->
 
 
+	
 	</div><!-- #primary -->
+
+
 
 <?php get_footer(); ?>

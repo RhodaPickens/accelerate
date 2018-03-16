@@ -65,6 +65,7 @@ div.case-study-images img {
   margin-bottom: 50px;
   border: 1px solid #dddddd
   width: 100%;
+  height: auto;
 }
 
 .subtitle {
@@ -74,6 +75,12 @@ div.case-study-images img {
 
 .client {
   font-size: 15px;
+}
+
+p.case-study-footer {
+  font-size: 13px;
+  font-weight: bold;
+  border-top: 1px solid #bfbfbf;
 }
 
 /* Featured Work Styles */
