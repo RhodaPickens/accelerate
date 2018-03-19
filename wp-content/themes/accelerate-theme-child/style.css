@@ -99,3 +99,30 @@ li.individual-featured-work {
 section.featured-work div.site-content {
   max-width: 95%;
 }
+
+/* Social Media Navigation Styles */
+
+nav.social-media-navigation ul {
+  list-style: none;
+}
+
+nav.social-media-navigation li {
+  display: inline;
+}
+
+li.social-icon {
+  float: right;
+}
+
+li.social-icon a {
+  color: white;
+}
+
+li.social-icon i {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  background-color: #3e3e3f;
+  border-radius: 50%;
+  margin-left: 5px;
+}
