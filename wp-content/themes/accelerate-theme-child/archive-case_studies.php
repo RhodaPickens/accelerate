@@ -11,7 +11,7 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 2.0
  */
-
+$size = "full";
 get_header(); ?>
 
 	<div id="primary" class="site-content">

@@ -130,3 +130,32 @@ i.icon-2x.icon-facebook {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* Styles for Contact Page */
+h2 {
+  font-size: 1.5em;
+}
+
+.nf-field-label label {
+  font-size: 85%;
+}
+
+span.ninja-forms-req-symbol {
+  color: white;
+}
+
+input[type="button"] {
+  background: #45ac9d;
+  float: right;
+}
+
+input[type="button"], input[type="submit"] {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+body.contact div.main-content {
+  max-width: 875px;
+  padding-left: 7em;
+  padding-right: 7em;
+}

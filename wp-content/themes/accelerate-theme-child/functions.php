@@ -15,6 +15,14 @@ function accelerate_child_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
+add_filter( 'body_class', 'custom_class' );
+function custom_class( $classes ) {
+    if ( is_page( 'contact-us' ) ) {
+        $classes[] = 'contact';
+    }
+    return $classes;
+}
+
 function create_custom_post_types() {
 	register_post_type( 'case_studies',
     array(
