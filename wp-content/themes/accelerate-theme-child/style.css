@@ -159,3 +159,119 @@ body.contact div.main-content {
   padding-left: 7em;
   padding-right: 7em;
 }
+
+/* About Page Styles */
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background-position: 0px -260px;
+  height: auto;
+  margin: 0;
+  padding: 5em 0;
+  text-align: center;
+}
+
+.about-tagline {
+  color: white;
+  padding-left: 16em;
+  padding-right: 16em;
+  font-size: 27px;
+}
+
+.our-services {
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+section.our-services h5 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+section.our-services p.service-intro {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+div.content-strategy {
+  margin: 50px 0;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content-strategy-right {
+  margin: 50px 0;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content-strategy img {
+  float: left;
+  width: 25%;
+}
+
+div.content-strategy img.right {
+  float: right;
+  width: 25%;
+}
+
+div.content-strategy h2 {
+  margin: auto;
+}
+
+div.content-strategy-right h2 {
+  margin: auto;
+}
+
+div.description p {
+  font-size: 18px;
+}
+
+div.description-left p {
+  font-size: 18px;
+}
+
+div.description {
+  margin: auto;
+  display: inline-block;
+  width: 70%;
+  padding-left: 50px;
+}
+
+div.description-left {
+  margin: auto;
+  display: inline-block;
+  width: 70%;
+}
+
+nav.about-footer {
+  margin: auto 15em;
+}
+
+h2.contact-button {
+  display: inline-block;
+  margin-bottom: 2em;
+  margin-right: 1.5em;
+  font-size: 25px;
+}
+
+a.contactus-button {
+  font-size: 20px;
+}
+
+div.content-strategy-right figure.right {
+  float: right;
+}
+
+div.content-strategy-right figure.left {
+  float: left;
+}
+
+/* 404 page styles */
+
+div.page404 {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
