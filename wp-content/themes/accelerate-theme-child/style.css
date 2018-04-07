@@ -87,7 +87,7 @@ ul.homepage-featured-work {
   list-style-type: none;
   text-align: center;
   display: block;
-  margin: auto;
+  margin: auto auto 5em auto;
 }
 
 li.individual-featured-work {
@@ -98,6 +98,39 @@ li.individual-featured-work {
 section.featured-work div.site-content {
   max-width: 95%;
 }
+
+/* Twitter Module Styles */
+h3.widget-title {
+      font-size: 1.5em;
+}
+
+div#secondary.widget-area {
+    padding-left: 150px;
+}
+
+h4#twitter-title {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+ul.tweets {
+  list-style: none;
+  margin: 4em auto 1em auto;
+}
+
+.follow-us-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+.stt-em {
+    display: none !important;
+}
+
 
 /* Social Media Navigation Styles */
 
@@ -124,6 +157,7 @@ li.social-icon i {
   background-color: #3e3e3f;
   border-radius: 50%;
   margin-left: 5px;
+  font-size: 18px;
 }
 
 i.icon-2x.icon-facebook {
@@ -272,6 +306,61 @@ div.content-strategy-right figure.left {
 
 /* 404 page styles */
 
-div.page404 {
-  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+div.page404 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: auto;
+  }
+
+div.page404 h1 {
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 4em;
+  margin: 3% 2%;
+}
+
+div.page404 h4 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0 0 3em;
+}
+
+div.page404 span {
+  color: #45ac9d;
+}
+
+/* Newsletter Sign up */
+
+input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+}
+
+/* Front Page Services Styles */
+ul.homepage-services {
+  list-style-type: none;
+  display: block;
+  margin: auto auto 5em auto;
+}
+
+li.individual-services {
+  display: inline-block;
+  margin: 0 14px;
+  float: left;
+}
+
+section.frontpage-services h5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section.frontpage-services div.site-content {
+  max-width: 95%;
+}
+
+.individual-services h3 {
+  text-align: center;
 }

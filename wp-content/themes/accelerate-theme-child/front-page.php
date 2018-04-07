@@ -45,6 +45,39 @@ get_header(); ?>
 		</div>
 	</section>
 
+	<section class="frontpage-services">
+		<h5>Our Services</h5>
+			<div class="site-content">
+					<?php $logo_1 = get_field('logo_1', 47356);
+						$logo_2 = get_field('logo_2', 47356);
+						$logo_3 = get_field('logo_3', 47356);
+						$logo_4 = get_field('logo_4', 47356);
+						$title_1 = get_field('title_1', 47356);
+						$title_2 = get_field('title_2', 47356);
+						$title_3 = get_field('title_3', 47356);
+						$title_4 = get_field('title_4', 47356);
+						$size = "medium"; ?>
+						<ul class="homepage-services">
+							<li class="individual-services">
+								<img src="<?php echo $logo_1; ?>" />
+							  <h3><?php echo $title_1; ?></h3>
+						  </li>
+							<li class="individual-services">
+								<img src="<?php echo $logo_2; ?>" />
+								<h3><?php echo $title_2; ?></h3>
+							</li>
+							<li class="individual-services">
+								<img src="<?php echo $logo_3; ?>" />
+								<h3><?php echo $title_3; ?></h3>
+							</li>
+							<li class="individual-services">
+								<img src="<?php echo $logo_4; ?>" />
+							  <h3><?php echo $title_4; ?></h3>
+							</li>
+						</ul>
+	  	</div>
+	</section>
+
 	<section class="recent-posts">
 		<div class="site-content">
 			<div class="blog-post">
@@ -56,7 +89,18 @@ get_header(); ?>
 						<?php endwhile; ?>
 					<?php wp_reset_query(); ?>
 			</div>
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					<h4 id="twitter-title">Recent Tweet</h4>
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<div class="follow-us-link"<a href=""><span>Follow Us</span> &rsaquo;</a></div>
+				</div>
+			<?php endif; ?>
 		</div>
 	</section>
+
+	<!-- function custom_excerpt_more($more) {
+		return '...<div class="read-more-link"><a  href="'. get_permalink() . '"><span>Read more</span> &rsaquo;</a></div>';
+	} -->
 
 <?php get_footer(); ?>
