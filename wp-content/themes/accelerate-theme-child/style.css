@@ -127,8 +127,8 @@ ul.tweets {
   text-transform: uppercase;
 }
 
-.stt-em {
-    display: none !important;
+span.stt-em {
+    display: none;
 }
 
 
