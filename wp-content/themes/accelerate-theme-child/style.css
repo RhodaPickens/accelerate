@@ -197,11 +197,13 @@ body.contact div.main-content {
 /* About Page Styles */
 .about-page {
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-  background-position: 0px -260px;
-  height: auto;
+  background-position: bottom;
+  height: 350px;
   margin: 0;
   padding: 5em 0;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .about-tagline {
